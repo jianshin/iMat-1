@@ -43,7 +43,7 @@
             <Font size="24.0" />
          </font>
       </Label>
-      <Label fx:id="amountThumbnailLabel" layoutX="78.0" layoutY="420.0" prefHeight="102.0" prefWidth="150.0" text="1" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="2.0">
+      <Label fx:id="amountThumbnailLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="78.0" layoutY="420.0" prefHeight="102.0" prefWidth="150.0" text="1" textAlignment="CENTER" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="2.0">
          <font>
             <Font size="48.0" />
          </font>
