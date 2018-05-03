@@ -6,6 +6,8 @@ import javafx.scene.image.ImageView;
 
 public class ItemThumbnail {
 
+    private Controller parentcontroller;
+
     @FXML
     private ImageView thumbnailImageView;
     @FXML
