@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="419.0" prefWidth="329.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="thumbnailImageView" fitHeight="248.0" fitWidth="329.0" layoutX="200.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../../resources/imat/imat/images/product_26.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="buyThumbnailImageView" fitHeight="110.0" fitWidth="150.0" layoutX="177.0" layoutY="249.66664123535156" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="2.0">
+         <image>
+            <Image url="@../../resources/images/buyButtonDormant.Png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="addThumbnailImageView" fitHeight="50.0" fitWidth="60.0" layoutX="116.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/images/PlusButtonDormant.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="removeThumbnailImageView" fitHeight="50.0" fitWidth="73.0" layoutX="116.0" layoutY="348.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="2.0">
+         <image>
+            <Image url="@../../resources/images/MinusButtonDormant.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="buyThumbnailLabel" layoutX="220.0" layoutY="340.0" text="Köp">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="quantityThumbnailLabel" alignment="CENTER" layoutX="1.0" layoutY="299.0" prefHeight="100.0" prefWidth="113.0" text="12" AnchorPane.bottomAnchor="2.0">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Label fx:id="nameThumbnailLabel" layoutX="10.0" layoutY="241.0" text="Lime">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="priceThumbnailLabel" layoutX="10.0" layoutY="282.0" text="10kr styck">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

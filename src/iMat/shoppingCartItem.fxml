@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="180.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iMat.ShoppingCartItem">
+   <children>
+      <ImageView fx:id="shoppingCartItemImageView" fitHeight="176.0" fitWidth="235.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="2.0" AnchorPane.topAnchor="2.0">
+         <image>
+            <Image url="@../../resources/imat/imat/images/product_26.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="removeAllShoppingcartImageView" fitHeight="110.0" fitWidth="150.0" layoutX="415.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="2.0">
+         <image>
+            <Image url="@../../resources/images/buyButtonDormant.Png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="addShoppingcartImageView" fitHeight="50.0" fitWidth="60.0" layoutX="354.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="53.0">
+         <image>
+            <Image url="@../../resources/images/PlusButtonDormant.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="removeShoppingcartView" fitHeight="50.0" fitWidth="73.0" layoutX="354.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="2.0">
+         <image>
+            <Image url="@../../resources/images/MinusButtonDormant.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="removeAllShoppingcartLabel" layoutX="433.0" layoutY="103.0" text="Ta Bort" AnchorPane.bottomAnchor="24.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="quantityShoppingcartLabel" alignment="CENTER" layoutX="239.0" layoutY="78.0" prefHeight="100.0" prefWidth="113.0" text="12" AnchorPane.bottomAnchor="2.0">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Label fx:id="nameShoppingcartLabel" layoutX="242.0" layoutY="4.0" text="Lime">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="priceShoppingcartLabel" layoutX="242.0" layoutY="45.0" text="10kr styck">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
