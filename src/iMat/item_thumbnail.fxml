@@ -14,7 +14,7 @@
             <Image url="@../../resources/imat/imat/images/product_26.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="110.0" fitWidth="150.0" layoutX="177.0" layoutY="249.66664123535156" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="2.0">
+      <ImageView fx:id="buyThumbnailImageView" fitHeight="110.0" fitWidth="150.0" layoutX="177.0" layoutY="249.66664123535156" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="2.0">
          <image>
             <Image url="@../../resources/images/buyButtonDormant.Png" />
          </image>
